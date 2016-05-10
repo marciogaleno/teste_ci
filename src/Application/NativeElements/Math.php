@@ -8,4 +8,9 @@ class Math
 	{
 		return $value01 + $value02;
 	}
+
+	public function subtrair()
+	{
+		
+	}
 }
