@@ -13,4 +13,9 @@ class Math
 	{
 		
 	}
+
+	public function mult($value01, $value02)
+	{
+		return $value01 * $value02;
+	}
 }
