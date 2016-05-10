@@ -9,8 +9,8 @@ class Math
 		return $value01 + $value02;
 	}
 
-	public function subtrair()
+	public function subtrair($valor01, $valor02)
 	{
-		
+		return $value01 - $value02;
 	}
 }
