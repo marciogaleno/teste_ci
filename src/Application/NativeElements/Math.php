@@ -4,7 +4,7 @@ namespace Application\NativeElements;
 
 class Math
 {
-	// cometario teste9
+	// cometario teste10
 	public function sum($value01, $value02)
 	{
 		return $value01 + $value02;
