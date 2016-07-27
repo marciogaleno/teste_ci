@@ -25,7 +25,6 @@ test:
             - "public"
             - "tests"
             - "vendor"
-
     
     php_docblock_checker:
         allowed_warnings: 10
