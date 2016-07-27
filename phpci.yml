@@ -9,3 +9,19 @@ test:
             - "phpunit.xml"
         directory:
             - "tests/"
+    php_loc:
+        directory: "src"
+    
+    lint:
+        directories:
+          - "src/"
+          - "tests/"
+
+    php_code_sniffer:
+        standard: "PSR2"
+        allowed_errors: -1
+        allowed_warnings: -1
+        ignore:
+            - "public"
+            - "tests"
+            - "vendor"
