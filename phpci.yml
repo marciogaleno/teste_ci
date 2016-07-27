@@ -9,3 +9,5 @@ test:
             - "phpunit.xml"
         directory:
             - "tests/"
+    php_loc:
+        directory: "src"
