@@ -11,11 +11,6 @@ test:
             - "tests/"
     php_loc:
         directory: "src"
-    
-    lint:
-        directories:
-          - "src/"
-          - "tests/"
 
     php_code_sniffer:
         standard: "PSR2"
@@ -25,11 +20,12 @@ test:
             - "public"
             - "tests"
             - "vendor"
-    
-    php_docblock_checker:
-        allowed_warnings: 10
-        skip_classes: true
+	test:
+    lint:
+        directories:
+          - "src/"
+          - "tests/"
+          - "migrations/"
+          - "public/"
 
-success:
-    shell: 
-        - "cd %BUILD_PATH% && php deployer.phar deploy producao"
+

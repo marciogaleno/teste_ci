@@ -1,0 +1,18 @@
+php:
+  build: .
+  ports:
+   - "8080:80"
+  volumes:
+   - ./:/var/www/html/fiscalizacao_transito
+  links:
+   - db
+
+db:
+  image: mysql:5.5
+  volumes:
+   - /var/lib/mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=123456
+   - MYSQL_DATABASE=banco_teste
+
+
