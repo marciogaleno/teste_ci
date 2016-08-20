@@ -31,8 +31,7 @@ test:
             - "docker-compose.yml"
             - "phpci.yml.dist"
             - "phpci.yml.save"
-            - "phpunit.xml
-            "
+            - "phpunit.xml"
     
     php_docblock_checker:
         allowed_warnings: 10
