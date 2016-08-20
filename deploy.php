@@ -3,9 +3,8 @@
 require 'recipe/composer.php';
 
 //fcfiZLa#P7f/6XXxxf
-server('producao', '191.101.9.10', 22)
+server('producao', 'localhost')
 	->user('root')
-	->password('Nf(fv4{Ms75Av]b')
 	->stage('producao')
     ->env('deploy_path', '/var/www/html/fiscalizacao_transito');
 
