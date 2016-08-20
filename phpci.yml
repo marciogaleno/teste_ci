@@ -2,6 +2,8 @@ build_settings:
     ignore:
         - "vendor"
         - "tests"
+        - "Dockerfile"
+        - "Dockerfile.save"
 
 test:
     php_unit:
