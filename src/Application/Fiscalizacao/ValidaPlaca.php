@@ -12,7 +12,7 @@ class ValidaPlaca
 		'SEXTA'   => ['9', '0']
 	];
 
-	/**
+	/** teste
 	* Verifica se uma determinada placa pode circular em determinado dia
     * @param String $placa numero da placa do veículo
     * @param String $dia_semana dia da semana
