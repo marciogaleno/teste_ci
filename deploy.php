@@ -2,7 +2,7 @@
 
 require 'recipe/composer.php';
 
-//fcfiZLa#P7f/6XXxx
+//fcfiZLa#P7f/6XXx
 server('producao', 'localhost')
 	->user('root')
 	->stage('producao')
