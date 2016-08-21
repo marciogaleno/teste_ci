@@ -11,13 +11,13 @@ test:
             - "phpunit.xml"
         directory:
             - "tests/"
-    php_loc:
-        directory: "src"
+    # php_loc:
+    #     directory: "src"
     
-    lint:
-        directories:
-          - "src/"
-          - "tests/"
+    # lint:
+    #     directories:
+    #       - "src/"
+    #       - "tests/"
 
     php_code_sniffer:
         standard: "PSR2"
