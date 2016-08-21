@@ -2,7 +2,7 @@
 
 require 'recipe/composer.php';
 
-//fcfiZLa#P7f/6XXxxf
+//fcfiZLa#P7f/6XXxx
 server('producao', '191.101.9.10', 22)
 	->user('root')
 	->password('Nf(fv4{Ms75Av]b')
