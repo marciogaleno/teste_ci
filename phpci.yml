@@ -12,7 +12,7 @@ test:
         directory:
             - "tests/"
         coverage:
-            - "--coverage-html"
+            - "--coverage-text"
     # php_loc:
     #     directory: "src"
     
