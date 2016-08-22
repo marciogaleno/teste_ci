@@ -11,6 +11,8 @@ test:
             - "phpunit.xml"
         directory:
             - "tests/"
+        coverage:
+            - "--coverage-html"
     # php_loc:
     #     directory: "src"
     
