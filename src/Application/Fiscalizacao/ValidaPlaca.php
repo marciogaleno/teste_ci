@@ -13,7 +13,7 @@ class ValidaPlaca
 	];
 
 	/** teste
-	* Verifica se uma determinada placa pode circular em determinado dia
+	* Verifica se uma determinada placa pode cirular em determinado dia
     * @param String $placa numero da placa do veículo
     * @param String $dia_semana dia da semana
     * @return bool False se a placa não pode circular no dia passado como parâmetro
