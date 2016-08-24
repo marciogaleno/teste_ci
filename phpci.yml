@@ -35,6 +35,11 @@ test:
             - "phpci.yml.dist"
             - "phpci.yml.save"
             - "phpunit.xml"
+            
+failure:
+    email:
+        committer: true
+
 success:
     shell: 
         - "cd %BUILD_PATH% && dep deploy producao"
