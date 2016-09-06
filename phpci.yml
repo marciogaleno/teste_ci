@@ -36,9 +36,9 @@ test:
             - "phpci.yml.save"
             - "phpunit.xml"
             
-failure:
-    email:
-        committer: true
+# failure:
+#     email:
+#         committer: true
 
 success:
     shell: 
