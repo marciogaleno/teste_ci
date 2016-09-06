@@ -11,7 +11,7 @@ test:
             - "phpunit.xml"
         directory:
             - "tests/"
-        coverage: "--coverage-html /tmp/report"
+        coverage: "--coverage-html"
     # php_loc:
     #     directory: "src"
     
@@ -36,9 +36,9 @@ test:
             - "phpci.yml.save"
             - "phpunit.xml"
             
-# failure:
-#     email:
-#         committer: true
+failure:
+    email:
+        committer: true
 
 success:
     shell: 
